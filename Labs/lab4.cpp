@@ -14,6 +14,7 @@ int main(int argc, char** argv) {
         minus_input /= 10;
         count++;
     }
+    
     if (minus_input % 10 == 1 ) {
         minus_input /= 10;
         while(count >= 0) {
@@ -21,7 +22,7 @@ int main(int argc, char** argv) {
             count--;
         }
         cout << "Result is " << input - minus_input << endl;
-    } else{
+    } else {
         cout << "404" << endl;
     }
     return 0;
