@@ -8,9 +8,11 @@ int main() {
     int n;
     cout << "Enter size of array:";
     cin >> n;
+    
     double arr[n][n];
     int b = n - 1;
     double sum = 0;
+    
     for(int i = 0; i < n; i++){
         for(int j = 0; j < n; j++){
             arr[i][j] = (double) (rand()%10+1);
@@ -21,9 +23,6 @@ int main() {
         b -= 1;
     }
     cout << sum / n;
-
-
-
 
     return 0;
 }
