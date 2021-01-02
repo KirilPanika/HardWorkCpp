@@ -3,6 +3,7 @@
 using namespace std;
 
 int main() {
+    
     // inputting n
     int n;
     cout << "Enter n:";
@@ -15,11 +16,13 @@ int main() {
         cin >> arr[i];
     }
 
+    
     // printing array
     for(int i=0; i<n; i++){
         cout << arr[i] << ' ';
     }
 
+    
     // finding max
     int max = arr[0];
     int placemax = 0;
@@ -30,6 +33,7 @@ int main() {
         }
     }
 
+    
     // counting average
     float sum = 0;
     for(int i=0; i<placemax; i++){
