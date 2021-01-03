@@ -2,6 +2,7 @@
 
 using namespace std;
 
+// prikleitj v konce 4islo 6
 int main () {
 
   int var;
