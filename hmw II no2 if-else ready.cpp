@@ -15,7 +15,18 @@ int main() {
     int c;
     cout << "Enter the number C: ";
     cin >> c;
-
+    
+    int max = a;
+    if (max < b) {
+        max = b;
+    }
+    if (max < c) {
+        max = c;
+    }
+    cout << max;
+    
+    
+    /*
     if (a > b && a < c || a > c && a < b) {
         cout << "The second biggest number is A: " << a;
     }
@@ -37,6 +48,7 @@ int main() {
     if (a == b && a == c) {
         cout << "The second biggest number is B: " << b << ", but they are the same!";
     }
-
+    */
+    
     return 0;
 }
