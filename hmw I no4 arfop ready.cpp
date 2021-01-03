@@ -2,6 +2,7 @@
 
 using namespace std;
 
+// vivesti vse vozmoznie varianti slozenija kotorie dadut vvedennoe 4islo
 int main() {
 
     int number;
