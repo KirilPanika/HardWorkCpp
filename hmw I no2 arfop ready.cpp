@@ -2,6 +2,7 @@
 
 using namespace std;
 
+// celsija perevesti v gradusi
 int main() {
 
     int var;
