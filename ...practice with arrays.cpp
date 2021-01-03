@@ -4,6 +4,7 @@ using namespace std;
 
 int main() {
 
+    // to find max and min
     int arr[10] = {1, 3, 2, 4, 8, 11, 3, 3, 8, 7};
     int max = arr[0];
     int min = arr[0];
