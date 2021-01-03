@@ -4,6 +4,7 @@ using namespace std;
 
 int main() {
 
+    // najti maksimum
     int a;
     cout << " Enter the number A: ";
     cin >> a;
