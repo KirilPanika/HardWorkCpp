@@ -2,6 +2,7 @@
 
 using namespace std;
 
+// perevesti 4islo v days:hours:minutes:seconds
 int main() {
     // I задание 3
     int var;
