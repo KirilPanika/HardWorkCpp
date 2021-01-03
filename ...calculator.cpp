@@ -2,6 +2,7 @@
 
 using namespace std;
 
+// a simple calculator
 int main() {
     
     int a = 0;
