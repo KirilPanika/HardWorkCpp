@@ -2,6 +2,7 @@
 
 using namespace std;
 
+//vvoditsja 4islo n, vivesti polzovatelju pravilno "ostalos n dnej"
 int main() {
 
     //inputting day
