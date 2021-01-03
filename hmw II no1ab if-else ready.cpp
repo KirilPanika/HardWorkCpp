@@ -5,8 +5,7 @@ using namespace std;
 
 int main() {
 
-    // a
-    //inputing number
+    // 4islo pri okruglenii uveli4itsja
     float number;
     cout << "Enter the number: ";
     cin >> number;
@@ -18,7 +17,7 @@ int main() {
    }
     
     
-    //b
+    //4islo perevedjonnoe v 16-uju sistemu budet okan4ivatsja na bukvu
     /*
     int number;
     cout << "Enter the number: ";
