@@ -38,11 +38,13 @@ int main() {
         for (int j = 0; j < 6; j++) {
             if (arr[i][j] != arr1[i][j]) {
                 flag = 1;
+                //goto result;
             }
         }
         cout << endl;
     }
 
+    //result:
     if ( flag == 1 ) {
         cout << "false";
     } else {
