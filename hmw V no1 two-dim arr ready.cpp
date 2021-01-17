@@ -4,10 +4,11 @@ using namespace std;
 
 int main() {
 
-
     int arr[4][6];
 
     int arr1[4][6];
+
+    int flag = 0;
 
 
     cout<<"The first array is: "<<endl;
@@ -16,6 +17,7 @@ int main() {
         for (int j = 0; j < 6; j++) {
             arr[i][j] = (int) (rand()%10);
             cout << arr[i][j] << " ";
+            //arr1[i][j] = arr[i][j];
 
         } cout << endl;
     }
@@ -31,5 +33,21 @@ int main() {
 
         } cout << endl;
     }
+
+    for (int i = 0; i < 4; i++) {
+        for (int j = 0; j < 6; j++) {
+            if (arr[i][j] != arr1[i][j]) {
+                flag = 1;
+            }
+        }
+        cout << endl;
+    }
+
+    if ( flag == 1 ) {
+        cout << "false";
+    } else {
+        cout << "true";
+    }
+    
     return 0;
 }
