@@ -15,7 +15,7 @@ int tailX[100], tailY[100]; //snake coordinates
 
 int nTail;
 
-enum eDirecton {STOP = 0, LEFT,RIGHT, UP, DOWN}; // Controls
+enum eDirecton {STOP = 0, LEFT,RIGHT, UP, DOWN}; // Controls (enum - type of variables; eDirection - name of var; words - constant)
 
 eDirecton dir;
 
