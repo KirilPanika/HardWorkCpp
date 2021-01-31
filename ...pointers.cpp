@@ -14,6 +14,8 @@ int main() {
     */
     
     
+   
+    
     /* pointers
     int a = 6;
     int* p;
@@ -38,6 +40,7 @@ int main() {
     */
     
     
+    
     /*
     int a = 4, b = 9;
     int* p;
@@ -47,6 +50,8 @@ int main() {
     b = *q + 1;
     cout << a << ", " << b << endl;
     */
+    
+    
     
     
     /*
@@ -68,6 +73,22 @@ int main() {
         cout << *(arr + i) << "  ";
     }
     */
+    
+    
+    
+    
+    /*
+    int a = 3, b = 5, *p, *q;
+    p = &a; q = &b;
+    *p = *q;
+    if (p == q) *q = 2;
+    else *q = 3;
+    p = q;
+    *q = *q+1;
+    cout << *p << "  " << a << "  " << b;
+             4            5            4
+    */
+
 
 
     return 0;
