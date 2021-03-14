@@ -11,7 +11,6 @@ int main() {
   string res = "";
   
   
-  
   for (int i = 0; i < s.length(); i++) {
       res += s[i] + 3;
       
