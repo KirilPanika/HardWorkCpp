@@ -17,8 +17,6 @@ int main() {
           res += s[i];
       }
   } cout << res;
-  
-
 
     return 0;
 }
