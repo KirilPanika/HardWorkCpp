@@ -14,7 +14,7 @@ int main () {
     sum = var * 10 + 6;                // to do and write the result to sum variable
     cout << sum;                       // to show the variable sum
   } else {                             // else if it's not true do next line
-    cout << "Error";                   // 
+    cout << "Error";                   // to show the sentence in console
   }
 
   return 0;
