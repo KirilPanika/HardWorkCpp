@@ -16,8 +16,8 @@ int main() {
     cout << "Operation:";
     cin >> operation;
     
-    switch (operation) {
-        case '-':
+    switch (operation) {                                    // to find symbol in operation variable
+        case '-':                                           // if in console will be this symbol do next line:
             std::cout << "a - b = " << a - b <<'\n';
             break;
         case '+':
@@ -30,7 +30,7 @@ int main() {
             std::cout << "a / b = " << a / b << '\n';
             break;
         default:
-            std::cout << "Error\n";
+            std::cout << "Error\n";                         // if program doesn't find the symbol, to show in console the sentence
 
     }
 
