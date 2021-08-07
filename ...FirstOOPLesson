@@ -1,0 +1,76 @@
+#include <iostream>
+
+using namespace std;
+
+
+ // классы с большой буквы
+ // класс это шаблон
+ // по умолчанию private
+ 
+class Cat {
+
+public:
+    string name;
+    int age;
+
+    void meow() {
+        cout << "meow" << endl;
+    }
+
+    void greet() {
+        cout << "Hi! My name is " << name << "! I am "<< age << " years old" << endl;
+    }
+
+    // конструктор всегда не имеет типа и пишется как название класса!!!
+    // при создании обьекта всегда запускается конструктор
+    
+    Cat(int a) {
+        age = a;
+        name = "unknown";
+    }
+
+    Cat() {
+        age = 0;
+        name = "unknown";
+    }
+
+    Cat(string n) {
+        age = 0;
+        name = n;
+    }
+
+
+    Cat(int a, string n) {
+        age = a;
+        name = n;
+    }
+};
+
+int main() {
+
+    Cat c1;
+
+    c1.age = 4;
+    c1.meow();
+    c1.greet();
+    cout << "Enter the name: ";
+    cin >> c1.name;
+    c1.greet();
+    
+
+
+    Cat c2(4);
+    c2.greet();
+
+
+
+    Cat c3("Kiril");
+    c3.greet();
+
+
+
+    Cat c4(7, "Loh");
+    c4.greet();
+
+    return 0;
+}
